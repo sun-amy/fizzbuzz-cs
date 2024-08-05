@@ -1,0 +1,15 @@
+C:\Users\AmySun\OneDrive - Softwire Technology Limited\Documents\TechSwitch\fizzbuzz-cs\bin\Debug\net8.0\fizzbuzz-cs.exe
+C:\Users\AmySun\OneDrive - Softwire Technology Limited\Documents\TechSwitch\fizzbuzz-cs\bin\Debug\net8.0\fizzbuzz-cs.deps.json
+C:\Users\AmySun\OneDrive - Softwire Technology Limited\Documents\TechSwitch\fizzbuzz-cs\bin\Debug\net8.0\fizzbuzz-cs.runtimeconfig.json
+C:\Users\AmySun\OneDrive - Softwire Technology Limited\Documents\TechSwitch\fizzbuzz-cs\bin\Debug\net8.0\fizzbuzz-cs.dll
+C:\Users\AmySun\OneDrive - Softwire Technology Limited\Documents\TechSwitch\fizzbuzz-cs\bin\Debug\net8.0\fizzbuzz-cs.pdb
+C:\Users\AmySun\OneDrive - Softwire Technology Limited\Documents\TechSwitch\fizzbuzz-cs\obj\Debug\net8.0\fizzbuzz-cs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AmySun\OneDrive - Softwire Technology Limited\Documents\TechSwitch\fizzbuzz-cs\obj\Debug\net8.0\fizzbuzz-cs.AssemblyInfoInputs.cache
+C:\Users\AmySun\OneDrive - Softwire Technology Limited\Documents\TechSwitch\fizzbuzz-cs\obj\Debug\net8.0\fizzbuzz-cs.AssemblyInfo.cs
+C:\Users\AmySun\OneDrive - Softwire Technology Limited\Documents\TechSwitch\fizzbuzz-cs\obj\Debug\net8.0\fizzbuzz-cs.csproj.CoreCompileInputs.cache
+C:\Users\AmySun\OneDrive - Softwire Technology Limited\Documents\TechSwitch\fizzbuzz-cs\obj\Debug\net8.0\fizzbuzz-cs.sourcelink.json
+C:\Users\AmySun\OneDrive - Softwire Technology Limited\Documents\TechSwitch\fizzbuzz-cs\obj\Debug\net8.0\fizzbuzz-cs.dll
+C:\Users\AmySun\OneDrive - Softwire Technology Limited\Documents\TechSwitch\fizzbuzz-cs\obj\Debug\net8.0\refint\fizzbuzz-cs.dll
+C:\Users\AmySun\OneDrive - Softwire Technology Limited\Documents\TechSwitch\fizzbuzz-cs\obj\Debug\net8.0\fizzbuzz-cs.pdb
+C:\Users\AmySun\OneDrive - Softwire Technology Limited\Documents\TechSwitch\fizzbuzz-cs\obj\Debug\net8.0\fizzbuzz-cs.genruntimeconfig.cache
+C:\Users\AmySun\OneDrive - Softwire Technology Limited\Documents\TechSwitch\fizzbuzz-cs\obj\Debug\net8.0\ref\fizzbuzz-cs.dll
