@@ -1,10 +1,13 @@
 ﻿using System.Text.RegularExpressions;
 // See https://aka.ms/new-console-template for more information
 // Console.WriteLine("Hello, World!");
-Console.WriteLine("Please enter an integer: ");
+Console.Write("Please enter start number: ");
 int userInput = Convert.ToInt32(Console.ReadLine());
 
-IEnumerable<int> numbers = Enumerable.Range(1, userInput);
+Console.Write("Please enter end number: ");
+int userInput2 = Convert.ToInt32(Console.ReadLine());
+
+IEnumerable<int> numbers = Enumerable.Range(userInput, userInput2 - userInput + 1);
 foreach (int num in numbers)
 {
     string output = "";
