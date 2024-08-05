@@ -25,8 +25,9 @@ foreach (int num in numbers)
     }
     else
     {
-        pass
+        if (output.IndexOf("F") == -1)
+        {Console.WriteLine(output + output2);}
+        else 
+        {Console.WriteLine(output.Insert(output.IndexOf('F'), output2));}
     }
-    
-    
 }
