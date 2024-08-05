@@ -1,11 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using System;
+using System.Text.RegularExpressions;
+// See https://aka.ms/new-console-template for more information
 // Console.WriteLine("Hello, World!");
 
-IEnumerable<int> numbers = Enumerable.Range(1, 100);
+IEnumerable<int> numbers = Enumerable.Range(1, 300);
 foreach (int num in numbers)
 {
     string output = "";
     string output2 = "";
+    object finalOutput;
     if (num % 3 == 0 )
     {output += "Fizz";}
     if (num % 5 == 0)
@@ -19,15 +22,31 @@ foreach (int num in numbers)
     if (output2 == "")
     {
         if (output == "")
-    {Console.WriteLine(num);}
-    else
-    {Console.WriteLine(output);}
+        {finalOutput = num;}
+        else
+        {finalOutput = output;}
     }
     else
     {
         if (output.IndexOf("F") == -1)
-        {Console.WriteLine(output + output2);}
+        {finalOutput = output + output2;}
         else 
-        {Console.WriteLine(output.Insert(output.IndexOf('F'), output2));}
+        {finalOutput = output.Insert(output.IndexOf('F'), output2);}
     }
+    if (num % 17 != 0)
+    {
+        Console.WriteLine(finalOutput);
+        }
+    else
+    {
+        if (finalOutput is int)
+        {Console.WriteLine(finalOutput);}
+        else if (finalOutput is string str)
+        {
+            var words = Regex.Split(str, @"(?=[A-Z])");
+            var reversedOutput = string.Concat(words.Reverse());
+            Console.WriteLine(reversedOutput);
+        } 
+    }
+
 }
