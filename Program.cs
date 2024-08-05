@@ -4,12 +4,29 @@
 IEnumerable<int> numbers = Enumerable.Range(1, 100);
 foreach (int num in numbers)
 {
-    if (num % 3 == 0 && num % 5 == 0)
-    {Console.WriteLine("FizzBuzz");}
-    else if (num % 3 == 0)
-    {Console.WriteLine("Fizz");}
-    else if (num % 5 == 0)
-    {Console.WriteLine("Buzz");}
-    else
+    string output = "";
+    string output2 = "";
+    if (num % 3 == 0 )
+    {output += "Fizz";}
+    if (num % 5 == 0)
+    {output += "Buzz";}
+    if (num % 7 == 0)
+    {output += "Bang";}
+    if (num % 11 == 0)
+    {output = "Bong";}
+    if (num % 13 == 0)
+    {output2 = "Fezz";}
+    if (output2 == "")
+    {
+        if (output == "")
     {Console.WriteLine(num);}
+    else
+    {Console.WriteLine(output);}
+    }
+    else
+    {
+        pass
+    }
+    
+    
 }
